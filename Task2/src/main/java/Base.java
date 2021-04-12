@@ -17,7 +17,7 @@ public class Base {
         System.out.println("Choose operator");
         String operator = br.readLine();
 
-        //проверяем операнд с помощью if else и производим операцию с введенным значениями
+        //проверяем операнд с помощью if else и производим операцию с введенным значениями !
         if (operator.equals("+")) { System.out.printf("%.4f", firstN+secondN) ;}
             else if (operator.equals("-")) {System.out.println(firstN-secondN);}
             else if (operator.equals("*")) {System.out.println(firstN*secondN);}
